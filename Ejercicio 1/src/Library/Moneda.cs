@@ -4,7 +4,7 @@ namespace Expert_SRP
 {
     public class Moneda 
     {
-        public Moneda(Double dinero, String moneda)
+        public  Moneda(Double dinero, String moneda)
         {
              if (moneda.Equals("U$S")) 
             {
