@@ -5,6 +5,15 @@ namespace Library
 {
     public class AppointmentService
     {
+        /* 
+        deberia exisitr una clase para el paciente, doctor y por último la especialidad
+        además falta relacionarlo con el paciente
+        por otro lado las variables no están encapsuladas
+
+        los datos del paciente deberian ser definidos en una clase aparte, ya que si cambian 
+        los mismos habría que cambiar la clase AppointmentService
+        
+         */
         public static string CreateAppointment(string name, string id, string phoneNumber, DateTime date, string appoinmentPlace, string doctorName)
         {
             StringBuilder stringBuilder = new StringBuilder("Scheduling appointment...\n");
