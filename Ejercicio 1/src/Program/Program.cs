@@ -6,7 +6,7 @@ namespace Expert_SRP
     {
         static void Main(string[] args)
         {
-            Alfajor a = new Alfajor(10, 8.5);
+            Alfajor a = new Alfajor(10, 8.5); // debería existir getter y setters para establecer los precios
             Kiosco k = new Kiosco();
             if (k.PuedeComprar(a, 15, "$"))
             {
